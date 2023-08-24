@@ -2,9 +2,6 @@ let publish = null;
 
 if(process.env.npm_config_publish) {
   publish = {
-    router: {
-      base: '/S/'
-    },
     generate: {
       routes: [
         '/result/0',

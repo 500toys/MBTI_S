@@ -2,6 +2,9 @@ let publish = null;
 
 if(process.env.npm_config_publish) {
   publish = {
+    router: {
+      base: '/MBTI_S/'
+    },
     generate: {
       routes: [
         '/result/0',
